@@ -1,0 +1,14 @@
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\bin\Debug\net8.0\Zadatak7.exe
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\bin\Debug\net8.0\Zadatak7.deps.json
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\bin\Debug\net8.0\Zadatak7.runtimeconfig.json
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\bin\Debug\net8.0\Zadatak7.dll
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\bin\Debug\net8.0\Zadatak7.pdb
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\obj\Debug\net8.0\Zadatak7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\obj\Debug\net8.0\Zadatak7.AssemblyInfoInputs.cache
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\obj\Debug\net8.0\Zadatak7.AssemblyInfo.cs
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\obj\Debug\net8.0\Zadatak7.csproj.CoreCompileInputs.cache
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\obj\Debug\net8.0\Zadatak7.dll
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\obj\Debug\net8.0\refint\Zadatak7.dll
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\obj\Debug\net8.0\Zadatak7.pdb
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\obj\Debug\net8.0\Zadatak7.genruntimeconfig.cache
+C:\Users\jovan\Desktop\Praksa\WEEK 1\Zadatak7\obj\Debug\net8.0\ref\Zadatak7.dll

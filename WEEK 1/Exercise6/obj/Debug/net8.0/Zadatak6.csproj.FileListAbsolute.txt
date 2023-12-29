@@ -1,0 +1,14 @@
+C:\Users\jovan\Desktop\Praksa\Zadatak6\bin\Debug\net8.0\Zadatak6.exe
+C:\Users\jovan\Desktop\Praksa\Zadatak6\bin\Debug\net8.0\Zadatak6.deps.json
+C:\Users\jovan\Desktop\Praksa\Zadatak6\bin\Debug\net8.0\Zadatak6.runtimeconfig.json
+C:\Users\jovan\Desktop\Praksa\Zadatak6\bin\Debug\net8.0\Zadatak6.dll
+C:\Users\jovan\Desktop\Praksa\Zadatak6\bin\Debug\net8.0\Zadatak6.pdb
+C:\Users\jovan\Desktop\Praksa\Zadatak6\obj\Debug\net8.0\Zadatak6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jovan\Desktop\Praksa\Zadatak6\obj\Debug\net8.0\Zadatak6.AssemblyInfoInputs.cache
+C:\Users\jovan\Desktop\Praksa\Zadatak6\obj\Debug\net8.0\Zadatak6.AssemblyInfo.cs
+C:\Users\jovan\Desktop\Praksa\Zadatak6\obj\Debug\net8.0\Zadatak6.csproj.CoreCompileInputs.cache
+C:\Users\jovan\Desktop\Praksa\Zadatak6\obj\Debug\net8.0\Zadatak6.dll
+C:\Users\jovan\Desktop\Praksa\Zadatak6\obj\Debug\net8.0\refint\Zadatak6.dll
+C:\Users\jovan\Desktop\Praksa\Zadatak6\obj\Debug\net8.0\Zadatak6.pdb
+C:\Users\jovan\Desktop\Praksa\Zadatak6\obj\Debug\net8.0\Zadatak6.genruntimeconfig.cache
+C:\Users\jovan\Desktop\Praksa\Zadatak6\obj\Debug\net8.0\ref\Zadatak6.dll

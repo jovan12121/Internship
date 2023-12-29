@@ -1,0 +1,14 @@
+C:\Users\jovan\Desktop\Praksa\Zadatak2\bin\Debug\net8.0\Zadatak2.exe
+C:\Users\jovan\Desktop\Praksa\Zadatak2\bin\Debug\net8.0\Zadatak2.deps.json
+C:\Users\jovan\Desktop\Praksa\Zadatak2\bin\Debug\net8.0\Zadatak2.runtimeconfig.json
+C:\Users\jovan\Desktop\Praksa\Zadatak2\bin\Debug\net8.0\Zadatak2.dll
+C:\Users\jovan\Desktop\Praksa\Zadatak2\bin\Debug\net8.0\Zadatak2.pdb
+C:\Users\jovan\Desktop\Praksa\Zadatak2\obj\Debug\net8.0\Zadatak2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jovan\Desktop\Praksa\Zadatak2\obj\Debug\net8.0\Zadatak2.AssemblyInfoInputs.cache
+C:\Users\jovan\Desktop\Praksa\Zadatak2\obj\Debug\net8.0\Zadatak2.AssemblyInfo.cs
+C:\Users\jovan\Desktop\Praksa\Zadatak2\obj\Debug\net8.0\Zadatak2.csproj.CoreCompileInputs.cache
+C:\Users\jovan\Desktop\Praksa\Zadatak2\obj\Debug\net8.0\Zadatak2.dll
+C:\Users\jovan\Desktop\Praksa\Zadatak2\obj\Debug\net8.0\refint\Zadatak2.dll
+C:\Users\jovan\Desktop\Praksa\Zadatak2\obj\Debug\net8.0\Zadatak2.pdb
+C:\Users\jovan\Desktop\Praksa\Zadatak2\obj\Debug\net8.0\Zadatak2.genruntimeconfig.cache
+C:\Users\jovan\Desktop\Praksa\Zadatak2\obj\Debug\net8.0\ref\Zadatak2.dll

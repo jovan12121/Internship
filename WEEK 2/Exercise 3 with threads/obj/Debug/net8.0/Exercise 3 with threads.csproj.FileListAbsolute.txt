@@ -1,0 +1,15 @@
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\bin\Debug\net8.0\Exercise 3 with threads.exe
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\bin\Debug\net8.0\Exercise 3 with threads.deps.json
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\bin\Debug\net8.0\Exercise 3 with threads.runtimeconfig.json
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\bin\Debug\net8.0\Exercise 3 with threads.dll
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\bin\Debug\net8.0\Exercise 3 with threads.pdb
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\obj\Debug\net8.0\Exercise 3 with threads.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\obj\Debug\net8.0\Exercise 3 with threads.AssemblyInfoInputs.cache
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\obj\Debug\net8.0\Exercise 3 with threads.AssemblyInfo.cs
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\obj\Debug\net8.0\Exercise 3 with threads.csproj.CoreCompileInputs.cache
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\obj\Debug\net8.0\Exercise 3 with threads.sourcelink.json
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\obj\Debug\net8.0\Exercise 3 with threads.dll
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\obj\Debug\net8.0\refint\Exercise 3 with threads.dll
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\obj\Debug\net8.0\Exercise 3 with threads.pdb
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\obj\Debug\net8.0\Exercise 3 with threads.genruntimeconfig.cache
+C:\Users\jovan\Desktop\Praksa\WEEK 2\Exercise 3 with threads\obj\Debug\net8.0\ref\Exercise 3 with threads.dll

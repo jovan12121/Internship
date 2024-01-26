@@ -103,5 +103,23 @@ namespace TaskTracker.Repository
                 return taskById;
             }
         }
+
+        public User Register(User user)
+        {
+            User returnVal = dbContext.Users.Add(user).Entity;
+            dbContext.SaveChanges();
+            return returnVal;
+
+        }
+
+        public User FindUserByUsername(string username)
+        {
+            User? user = dbContext.Users.FirstOrDefault(u => u.UserName == username);
+            if (user == null)
+            {
+                throw new Exception("Username doesn't exists!");
+            }
+            return user;
+        }
     }
 }

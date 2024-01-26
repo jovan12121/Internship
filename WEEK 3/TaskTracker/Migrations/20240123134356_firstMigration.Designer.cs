@@ -12,8 +12,8 @@ using TaskTracker.Infrastructure;
 namespace TaskTracker.Migrations
 {
     [DbContext(typeof(TaskTrackerContext))]
-    [Migration("20240118153947_initialMigration")]
-    partial class initialMigration
+    [Migration("20240123134356_firstMigration")]
+    partial class firstMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -70,7 +70,7 @@ namespace TaskTracker.Migrations
                     b.Property<int>("Priority")
                         .HasColumnType("int");
 
-                    b.Property<long>("ProjectId")
+                    b.Property<long?>("ProjectId")
                         .HasColumnType("bigint");
 
                     b.Property<int>("Status")
@@ -87,9 +87,7 @@ namespace TaskTracker.Migrations
                 {
                     b.HasOne("TaskTracker.Models.Project", "Project")
                         .WithMany("Tasks")
-                        .HasForeignKey("ProjectId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ProjectId");
 
                     b.Navigation("Project");
                 });

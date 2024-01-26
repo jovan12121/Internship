@@ -36,11 +36,9 @@ namespace TaskTracker.Services
             }
             else
             {
-                requestedProject.Tasks = new List<Task_>();
                 requestedProject.Tasks.Add(taskToAddToProject);
             }
             taskToAddToProject.Project = requestedProject;
-            taskToAddToProject.ProjectId = requestedProject.Id;
             _repository.EditTask(taskToAddToProject);
             _repository.EditProject(requestedProject);
             return true;
@@ -67,6 +65,8 @@ namespace TaskTracker.Services
             {
                 requestedProject.Tasks.Remove(taskToDeleteFromProject);
             }
+            taskToDeleteFromProject.Project = null;
+            _repository.EditTask(taskToDeleteFromProject);
             _repository.EditProject(requestedProject);
             return true;
 
@@ -83,14 +83,14 @@ namespace TaskTracker.Services
         }
 
         public List<Task_> GetAllTasksInProject(long projectId)
-        {
-            List<Task_> retVal = new List<Task_>();
+        { 
             Project requestedProject = _repository.GetProject(projectId);
             if (requestedProject == null)
             {
                 throw new Exception("Project with that ID doesn't exist.");
             }
-            retVal = requestedProject.Tasks != null ? requestedProject.Tasks.ToList() : new List<Task_>();
+            List<Task_> AllTasks = _repository.GetAllTasks();
+            List<Task_> retVal = AllTasks.Where(task => task.Project == requestedProject).ToList();
             return retVal;
         }
 

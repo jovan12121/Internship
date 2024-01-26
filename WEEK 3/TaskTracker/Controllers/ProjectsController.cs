@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TaskTracker.Interfaces;
 using TaskTracker.Models;
@@ -15,6 +16,8 @@ namespace TaskTracker.Controllers
             _projectsService = projectsService;
         }
         [HttpGet("getProject/{id}")]
+        [Authorize(Roles = "user")]
+
         public ActionResult GetProject(long id)
         {
             try
@@ -27,6 +30,8 @@ namespace TaskTracker.Controllers
             }
         }
         [HttpPost("addProject")]
+        [Authorize(Roles = "user")]
+
         public ActionResult AddProject(Project project)
         {
             try
@@ -39,6 +44,8 @@ namespace TaskTracker.Controllers
             }
         }
         [HttpPut("editProject")]
+        [Authorize(Roles = "user")]
+
         public ActionResult EditProject(Project project)
         {
             try
@@ -51,6 +58,8 @@ namespace TaskTracker.Controllers
             }
         }
         [HttpDelete("deleteProject/{id}")]
+        [Authorize(Roles = "user")]
+
         public ActionResult DeleteProject(long id)
         {
             try
@@ -63,6 +72,8 @@ namespace TaskTracker.Controllers
             }
         }
         [HttpDelete("getAllProjects")]
+        [Authorize(Roles = "user")]
+
         public ActionResult GetAllProject()
         {
             try
@@ -75,6 +86,8 @@ namespace TaskTracker.Controllers
             }
         }
         [HttpPut("addTaskToProject")]
+        [Authorize(Roles = "user")]
+
         public ActionResult AddTaskToProject(long projectId,long taskId)
         {
             try
@@ -87,6 +100,8 @@ namespace TaskTracker.Controllers
             }
         }
         [HttpPut("deleteTaskFromProject")]
+        [Authorize(Roles = "user")]
+
         public ActionResult DeleteTaskFromProject(long projectId, long taskId)
         {
             try
@@ -99,6 +114,8 @@ namespace TaskTracker.Controllers
             }
         }
         [HttpGet("getTasksInProject")]
+        [Authorize(Roles = "user")]
+
         public ActionResult GetTasksInProject(long projectId)
         {
             try

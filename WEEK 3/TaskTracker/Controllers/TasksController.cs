@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TaskTracker.Interfaces;
 using TaskTracker.Models;
@@ -15,6 +16,7 @@ namespace TaskTracker.Controllers
             _taskService = taskService;
         }
         [HttpGet("getTask")]
+        [Authorize(Roles = "user")]
         public ActionResult GetTask(long id)
         {
             try
@@ -27,6 +29,8 @@ namespace TaskTracker.Controllers
             }
         }
         [HttpGet("getAllTasks")]
+        [Authorize(Roles = "user")]
+
         public ActionResult GetAllTasks()
         {
             try
@@ -39,6 +43,8 @@ namespace TaskTracker.Controllers
             }
         }
         [HttpDelete("deleteTask/{id}")]
+        [Authorize(Roles = "user")]
+
         public ActionResult DeleteTask(long id)
         {
             try
@@ -51,6 +57,8 @@ namespace TaskTracker.Controllers
             }
         }
         [HttpPut("editTask")]
+        [Authorize(Roles = "user")]
+
         public ActionResult EditTask(Task_ task)
         {
             try
@@ -63,6 +71,8 @@ namespace TaskTracker.Controllers
             }
         }
         [HttpPost("addTask")]
+        [Authorize(Roles = "user")]
+
         public ActionResult AddTask(Task_ task)
         {
             try

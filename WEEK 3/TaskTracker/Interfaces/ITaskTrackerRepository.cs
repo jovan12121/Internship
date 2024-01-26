@@ -14,5 +14,7 @@ namespace TaskTracker.Interfaces
         Project GetProject(long projectId);
         bool DeleteProject(long projectId);
         Project EditProject(Project project);
+        User FindUserByUsername(string username);
+        User Register(User user);
     }
 }

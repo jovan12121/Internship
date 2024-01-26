@@ -8,6 +8,7 @@ C:\Users\jovan\Desktop\Praksa\WEEK 3\TaskTracker\bin\Debug\net8.0\TaskTracker.pd
 C:\Users\jovan\Desktop\Praksa\WEEK 3\TaskTracker\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\jovan\Desktop\Praksa\WEEK 3\TaskTracker\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\jovan\Desktop\Praksa\WEEK 3\TaskTracker\bin\Debug\net8.0\Humanizer.dll
+C:\Users\jovan\Desktop\Praksa\WEEK 3\TaskTracker\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\jovan\Desktop\Praksa\WEEK 3\TaskTracker\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\jovan\Desktop\Praksa\WEEK 3\TaskTracker\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\jovan\Desktop\Praksa\WEEK 3\TaskTracker\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll

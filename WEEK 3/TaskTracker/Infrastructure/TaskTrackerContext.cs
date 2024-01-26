@@ -8,6 +8,7 @@ namespace TaskTracker.Infrastructure
         public TaskTrackerContext(DbContextOptions<TaskTrackerContext> options) : base(options) { }
         public DbSet<Task_> Tasks { get; set;}
         public DbSet<Project> Projects { get; set;}
+        public DbSet<User> Users { get; set;}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Task_>()
@@ -16,11 +17,10 @@ namespace TaskTracker.Infrastructure
             modelBuilder.Entity<Project>()
                  .HasKey(p => p.Id);
             modelBuilder.Entity<Project>().Property(p => p.Id).ValueGeneratedOnAdd();
-            modelBuilder.Entity<Project>()
-                .HasMany(p => p.Tasks)
-                .WithOne(t => t.Project)
-                .HasForeignKey(t => t.ProjectId); 
-
+            modelBuilder.Entity<User>().
+                HasKey(u => u.Id);
+            modelBuilder.Entity<User>().Property(u => u.Id).ValueGeneratedOnAdd();
+            
 
             base.OnModelCreating(modelBuilder);
         }

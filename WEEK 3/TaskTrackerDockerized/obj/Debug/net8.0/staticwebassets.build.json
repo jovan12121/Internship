@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ptIKmx7HxJFbMyk4T4l6RR7Ec7Db1GNj4HkjgZOeIgs=",
+  "Source": "TaskTrackerDockerized",
+  "BasePath": "_content/TaskTrackerDockerized",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
